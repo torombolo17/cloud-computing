@@ -147,11 +147,11 @@
     
     <h1 style="background-color:blue; color:white">Headbook</h1></h1> <hr>
     News Feed<br>
-    <input type="text" ng-model="item.data.message">
+    <input style="text-align:center"type="text" ng-model="item.data.message">
 
-      <input ng-click="add()" type="submit" name="add new item" value="Submit">
+      <input style="text-align:center" ng-click="add()" type="submit" name="add new item" value="Submit">
 
-    <ul style="background-color:white">
+    <ul style="background-color:white; text-align:center">
       <li ng-repeat="entity in items.entities">
           <pre>{{entity.data.message}}</pre>
       </li>
